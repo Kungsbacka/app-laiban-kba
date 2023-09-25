@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "asyncpublisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tomasgreen/AsyncPublisher",
+      "state" : {
+        "revision" : "8987ebdecfd8b4df0a046060e4525d5be46894f2",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+      "state" : {
+        "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+        "version" : "4.2.2"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "c51ba84499268ea3020e6aee9e229c0f56b9d924",
+        "version" : "5.16.0"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "e837c37d45449fbd3b4745c10c5b5274e73edead",
+        "version" : "2.2.3"
+      }
+    },
+    {
+      "identity" : "spm-daisy",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/helsingborg-stad/spm-daisy",
+      "state" : {
+        "revision" : "3addc851cfcfcebc587d47ec30ed36c9494317ae",
+        "version" : "1.0.7"
+      }
+    },
+    {
+      "identity" : "spm-laiban",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/helsingborg-stad/spm-laiban",
+      "state" : {
+        "revision" : "7ab32a7a6c696981549d268702f596e918a21e61",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "spm-ms-cognitive-services",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/helsingborg-stad/spm-ms-cognitive-services",
+      "state" : {
+        "revision" : "6b8c8e4c68a6ca2e8d27f0388447a63bc61d775a",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftsoup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scinfu/SwiftSoup.git",
+      "state" : {
+        "revision" : "0e96a20ffd37a515c5c963952d4335c89bed50a6",
+        "version" : "2.6.0"
+      }
+    }
+  ],
+  "version" : 2
+}
