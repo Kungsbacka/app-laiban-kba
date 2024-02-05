@@ -90,7 +90,6 @@ class AppState : ObservableObject {
     
     var willTranslateTimer:Timer? = nil
     init() {
-        _ = Bundle.main.url(forResource: "Config", withExtension: "plist");
         self.settings = LaibanSettings(defaultsFromFile: Bundle.main.url(forResource: "Config", withExtension: "plist"), managedConfigEnabled: true)
         self.msTTS = MSTTS(config: nil, audioSwitchboard: switchboard)
         self.assistant = Assistant(

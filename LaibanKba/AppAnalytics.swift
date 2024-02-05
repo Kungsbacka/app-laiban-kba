@@ -53,6 +53,8 @@ public class AppAnalytics {
         /// Called when custom events oocurs, e.g. the user presses a button:
         AnalyticsService.shared.customPublisher.sink { [weak self] customEvent in
             guard let self = self, self.isEnabled else { return }
+            let event = customEvent.name
+            let properties = customEvent.properties
             // Handle custom event
         }.store(in: &cancellables)
         
